@@ -273,6 +273,7 @@ body {
   line-height: 26px;
   color: #282739;
   position: relative;
+  margin-bottom: 10px;
 }
 .sample-item-bold {
   font-weight: 500; 
@@ -290,4 +291,18 @@ body {
   position: absolute;
   top: 0;
   right: 30px;
+}
+.sub-sample {
+  min-height: 463px;
+  position: relative;
+}
+.subsample-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.subsample-image {
+  position: absolute;
+  left: 30px;
+  top: 0;
 }
