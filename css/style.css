@@ -306,3 +306,133 @@ body {
   left: 30px;
   top: 0;
 }
+.trademarks-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.trademarks-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.trademarks-card {
+  flex-basis: 24%;
+  min-height: 492px;
+  border: 2px solid #EAEBED;
+  border-radius: 10px;
+}
+.trademarks-card-images {
+  position: relative;
+  background: #F0F1F5;
+  padding: 27px 0 22px 0;
+}
+.card-benefit {
+  width: 41px;
+  height: 25px;
+  background: #EE685F;
+  border-radius: 5px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+  position:absolute;
+  left: 10px;
+  top: 10px;
+  padding: 4px 9px;
+}
+.card-balance {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+}
+.trademarks-card-content {
+  padding: 20px 25px;
+}
+.card-content-title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #282739;
+  margin-bottom: 20px;
+}
+.card-content-features {
+  margin-bottom: 25px;
+}
+.features-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  columns: 2 auto;
+}
+.features-list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5D6C7B;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-content-footer {
+  display: flex;
+  align-items: center;
+  gap:26px;
+  margin-bottom: 20px;
+}
+.catalog-old-prices {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  text-decoration-line: line-through;
+  color: #5D6C7B;
+}
+.catalog-prices {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #282739;
+}
+.card-footer-link {
+  display: flex;
+  gap: 10px;
+}
+.card-link-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border: 1.3px solid #EAEBED;
+  border-radius: 100%;
+}
+.trademarks-card-button {
+  padding: 10px 37px;
+  background: #6F73EE;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
