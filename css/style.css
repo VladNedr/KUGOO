@@ -523,3 +523,52 @@ body {
 .checkbox-text-span {
   text-decoration: underline;
 }
+.finish {
+  margin-bottom: 0;
+  min-height: 97px;
+  background: #6F73EE;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.finish-form {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+.finish-title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.finish-form-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.input-email {
+  width: 410px;
+  height: 53px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+.finish-button {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #6F73EE;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 15px 25px;
+  border: none;
+  
+}
