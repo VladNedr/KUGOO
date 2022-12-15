@@ -5,11 +5,11 @@ body {
   font-family: 'Jost', sans-serif;
 }
 .container {
-  max-width: 1100px;
+  max-width: 1110px;
   margin: auto;
 }
 .section {
-  margin-top: 100px;
+  margin-top: 72px;
   margin-bottom: 100px;
 }
 .section-title {
@@ -71,7 +71,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 28px;
   padding-bottom: 12px;
 }
 .header-logo {
@@ -85,15 +85,14 @@ body {
   color: #282739;
 }
 .header-button {
-  padding: 15px 20px;
+  padding: 12px 15px;
   background: #6F73EE;
-  border: 1.5px solid #6F73EE;
+  border: none;
   border-radius: 5px;
   font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 23px;
   color: #FFFFFF;
 }
 .line-svg {
@@ -143,15 +142,11 @@ body {
   font-size: 14px;
   color: #282739;
 }
-.seporator {
-  width: 100%;
-  background-color: #000;
-  margin-bottom: 26px;
-}
 .subheader {
   min-height: 445px;
-  padding: 50px 0px;
+  padding: 44px 0px;
   background: url(/img/subheader-bg.jpg) center center/cover no-repeat;
+  margin-top: 27px;
   margin-left: 30px;
   margin-right: 30px;
   border-radius: 10px;
@@ -160,7 +155,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 19px;
+  margin-bottom: 7px;
 }
 .subheader-info-address {
   font-family: 'Jost';
@@ -188,7 +183,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   width: 612px;
 }
 .subheader-text {
@@ -199,13 +194,13 @@ body {
   line-height: 29px;
   color: #FFFFFF;
   margin: 0;
-  margin-bottom: 28px;
+  margin-bottom: 17px;
 }
 .subheader-content {
   display: flex;
   align-items: center;
   gap: 35px;
-  margin-bottom: 38px;
+  margin-bottom: 25px;
 }
 .subheader-content-block {
   display: flex;
@@ -247,7 +242,7 @@ body {
   position: relative;
 }
 .sample-title {
-  width: 645px;
+  max-width: 645px;
   margin-bottom: 30px;
   padding-top: 30px;
 }
@@ -285,7 +280,7 @@ body {
   height: 22px;
   position: absolute;
   left: -32px;
-  top: 3px;
+  top: 1px;
 }
 .sample-image {
   position: absolute;
@@ -301,22 +296,30 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
+.subsample-content-block {
+  margin-right: 50px;
+}
+.sub-sample-title {
+  max-width: 584px;
+}
 .subsample-image {
   position: absolute;
   left: 30px;
   top: 0;
 }
 .trademarks-title {
+  max-width: 732px;
+  margin: 0 auto 50px;
+
   text-align: center;
-  margin-bottom: 50px;
 }
 .trademarks-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 29px;
 }
 .trademarks-card {
-  flex-basis: 24%;
+  flex-basis: 23%;
   min-height: 492px;
   border: 2px solid #EAEBED;
   border-radius: 10px;
@@ -368,7 +371,7 @@ body {
   padding: 8px;
 }
 .trademarks-card-content {
-  padding: 20px 25px;
+  padding: 15px 24px;
 }
 .card-content-title {
   font-family: 'Jost';
@@ -380,7 +383,7 @@ body {
   margin-bottom: 20px;
 }
 .card-content-features {
-  margin-bottom: 25px;
+  margin-bottom: 6px;
 }
 .features-list {
   list-style-type: none;
@@ -403,8 +406,8 @@ body {
 .card-content-footer {
   display: flex;
   align-items: center;
-  gap:26px;
-  margin-bottom: 20px;
+  gap: 23px;
+  margin-bottom: 15px;
 }
 .catalog-old-prices {
   font-family: 'Jost';
@@ -438,7 +441,7 @@ body {
   border-radius: 100%;
 }
 .trademarks-card-button {
-  padding: 10px 37px;
+  padding: 10px 35px;
   background: #6F73EE;
   border-radius: 5px;
   border: none;
@@ -453,19 +456,21 @@ body {
 .bg-grey {
   margin-right: 30px;
   margin-left: 30px;
+  padding-top: 88px;
+  padding-bottom: 78px;
   background: #F4F7FB;
   border-radius: 10px;
+  position: relative;
 }
 .cta-form-wrapper {
   display: flex;
-  align-items: center;
 }
 .cta-form {
   width: 613px;
 }
 .cta-title {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .cta-form-text {
   font-family: 'Jost';
@@ -475,7 +480,7 @@ body {
   line-height: 23px;
   color: #282739;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .input-group-wrapper {
   display: flex;
@@ -509,7 +514,7 @@ body {
 }
 .cta-checkbox {
   display: flex;
-  gap:10px;
+  gap: 15px;
 }
 .cta-checkbox-text {
   font-family: 'Jost';
@@ -523,17 +528,22 @@ body {
 .checkbox-text-span {
   text-decoration: underline;
 }
+.cta-image {
+  position: absolute;
+  bottom: 0;
+  right: 180px;
+
+}
 .finish {
   margin-bottom: 0;
   min-height: 97px;
   background: #6F73EE;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .finish-form {
   display: flex;
   align-items: center;
   gap: 95px;
+  padding-top: 6px;
 }
 .finish-title {
   font-family: 'Jost';
@@ -579,7 +589,7 @@ body {
 .footer-content-top {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 75px;
+  margin-bottom: 63px;
 }
 .footer-menu-title {
   font-family: 'Jost';
@@ -657,10 +667,12 @@ body {
   background: #5D6C7B;
   height: 1px;
   opacity: 0.15;
+  border: none;
+  margin: 0;
 }
 .footer-content-center {
-  padding-top: 36px;
-  padding-bottom: 34px;
+  padding-top: 35px;
+  padding-bottom: 31px;
 }
 .footer-social {
   display: flex;
@@ -681,8 +693,6 @@ body {
   gap: 10px;
 }
 .footer-bottom {
-  padding-top: 18px;
-  padding-bottom: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -737,4 +747,48 @@ body {
   display: flex;
   align-items: center;
   gap: 14px;
+}
+@media ( max-width: 1200px) {
+
+}
+@media ( max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .mobile-menu-toggle {
+    width: 58px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 12px;
+    border-right: 1px solid #ECF3FF;
+    min-height: 39px;
+    min-width: 58px;
+  }
+  .mobile-menu-line {
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+    transition: transform 0.3s;
+  } 
+  .mobile-menu-line:nth-child(2) {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 425px) {
+
 }
