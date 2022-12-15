@@ -24,6 +24,7 @@ body {
 .navbar {
   border-bottom: 1px solid #ECF3FF;
   height: 39px;
+  position: relative;
 }
 .navbar-nav {
   height: 39px;
@@ -40,6 +41,7 @@ body {
   text-decoration: none;
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 .navbar-nav-item {
   margin-right: 30px;
@@ -57,6 +59,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8.5px;
+  height: 100%;
 }
 .navbar-phone-link {
   font-family: 'Jost';
@@ -125,7 +128,6 @@ body {
 .header-market {
   display: flex;
   align-items: center;
-  gap: 25px;
 }
 .header-market-link {
   text-decoration: none;
@@ -134,6 +136,10 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: #282739;
+  margin-right: 25px;
+}
+.header-market-link:nth-child(3) {
+  margin-right: 10px;
 }
 .header-market-text {
   font-family: 'Jost';
@@ -241,8 +247,10 @@ body {
   min-height: 422px;
   position: relative;
 }
-.sample-title {
+.sample-wrap {
   max-width: 645px;
+}
+.sample-title {
   margin-bottom: 30px;
   padding-top: 30px;
 }
@@ -298,9 +306,7 @@ body {
 }
 .subsample-content-block {
   margin-right: 50px;
-}
-.sub-sample-title {
-  max-width: 584px;
+  max-width: 585px;
 }
 .subsample-image {
   position: absolute;
@@ -568,6 +574,9 @@ body {
   border-radius: 5px;
   padding: 15px 25px;
 }
+.input-email::placeholder {
+  color: #FFFFFF;
+}
 .finish-button {
   font-family: 'Jost';
   font-style: normal;
@@ -625,7 +634,7 @@ body {
   display: flex;
   gap: 40px;
 }
-.-service-text {
+.service-text {
   font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
@@ -748,17 +757,153 @@ body {
   align-items: center;
   gap: 14px;
 }
-@media ( max-width: 1200px) {
-
+@media ( max-width: 1300px) {
+  .subsample-content-block {
+    margin-right: 10px;
+  }
 }
-@media ( max-width: 992px) {
+@media ( max-width: 1200px) {
   .container {
     max-width: 960px;
   }
+  .section-title {
+    font-size: 30px;
+  }
+  .header-search-form {
+    max-width: 500px;
+  }
+  .header-market-link {
+    margin-right: 15px;
+  }
+  .sample-subtitle {
+    font-size: 17px;
+  }
+  .sample-item {
+    font-size: 15px;
+  }
+  .sample-image {
+    top: 40px;
+    max-width: 40%;;
+  }
+  .subsample-image {
+    max-width: 40%;
+    top: 30px;
+  }
+  .subsample-content-block {
+    margin-right: 0px;
+    max-width: 500px;
+  }
+  .trademarks-card {
+    flex-basis: 25%;
+  }
+  .trademarks-card-content {
+    padding: 10px 20px;
+  }
+  .card-content-footer {
+    gap: 15px;
+  }
+  .cta-image {
+    right: 0;
+  }
+  .finish-form {
+    gap: 20px;
+  }
+  .input-email {
+    width: 350px;
+  }
+}
+@media ( max-width: 992px) {
+  .container {
+    max-width: 720px
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .header-search-form {
+    max-width: 250px;
+  }
+  .subheader {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sample-image {
+    right: 0;
+    top: 160px;
+  }
+  .subsample-image {
+    left: 0;
+  }
+  .subsample-content-block {
+    max-width: 400px;
+  }
+  .trademarks-cards {
+    justify-content: center;
+  }
+  .bg-grey {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cta-form {
+    max-width: 500px;
+  }
+  .cta-title {
+    margin-bottom: 20px;
+  }
+  .cta-form-text {
+    font-size: 14px;
+  }
+  .input-group-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .finish-form-wrapper {
+    gap: 10px;
+  }
+  .input-email {
+    max-width: 250px;
+  }
+  .footer-content-top {
+    margin-bottom: 40px;
+  }
+  .footer-menu-title {
+    font-size: 15px;
+  }
+  .footer-menu-link {
+    font-size: 12px;
+  }
+  .footer-service {
+    gap: 25px;
+  }
+  .button-link {
+    display: none;
+  }
+  .footer-content-center {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .footer-social-markets {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-legal {
+    gap: 15px;
+  }
+  .footer-networks-bottom {
+    gap: 15px;
+  }
+  .footer-networks-world {
+    gap: 5px;
+  }
+  .world-social {
+    gap: 8px;
+  }
 }
 @media (max-width: 768px) {
-  .container {
+  /* .container {
     max-width: 640px;
+  } */
+  .container {
+    max-width: 540px;
   }
   .navbar-nav {
     display: none;
