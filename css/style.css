@@ -340,17 +340,14 @@ a {
 .trademarks-title {
   max-width: 732px;
   margin: 0 auto 50px;
-
   text-align: center;
 }
 .trademarks-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 29px;
+  min-height: 492px;
+  position: relative;
 }
 .trademarks-card {
-  flex-basis: 23%;
-  min-height: 492px;
+  min-height: 100%;
   border: 2px solid #EAEBED;
   border-radius: 10px;
 }
@@ -846,14 +843,11 @@ a {
     margin-right: 0px;
     max-width: 500px;
   }
-  .trademarks-card {
-    flex-basis: 25%;
+  .card-images-cover {
+    width: 100%;
   }
-  .trademarks-card-content {
-    padding: 10px 20px;
-  }
-  .card-content-footer {
-    gap: 15px;
+  .trademarks-card-button {
+    width: 100%;
   }
   .cta-image {
     right: 0;
@@ -894,9 +888,6 @@ a {
   }
   .subsample-content-block {
     max-width: 400px;
-  }
-  .trademarks-cards {
-    justify-content: center;
   }
   .bg-grey {
     margin-left: 0;
@@ -955,6 +946,9 @@ a {
   }
   .world-social {
     gap: 8px;
+  }
+  .trademarks-card-content {
+    padding: 15px 10px;
   }
   /* HOVER EFFECT NONE  */ 
   .navbar-nav-link:hover {
@@ -1162,6 +1156,18 @@ a {
   .footer-networks-bottom {
     gap: 5px;
   }
+  .card-content-footer {
+    gap: 10px;
+  }
+  .trademarks-card-button {
+    padding: 5px 35px;
+  }
+  .catalog-prices {
+    font-size: 14px;
+  }
+  .card-footer-link {
+    gap: 5px;
+  }
 }
 @media (max-width: 425px) {
   .section-title {
@@ -1211,5 +1217,23 @@ a {
   }
   .finish-form-wrapper {
     margin-bottom: 10px;
+  }
+  .trademarks-card-content {
+    padding: 15px 30px;
+  }
+  .card-content-title {
+    font-size: 22px;
+  }
+  .catalog-prices {
+    font-size: 20px;
+  }
+  .card-content-footer {
+    gap: 50px;
+  }
+  .card-footer-link {
+    gap: 15px;
+  }
+  .trademarks-card-button {
+    padding: 20px 35px;
   }
 }
