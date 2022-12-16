@@ -4,6 +4,12 @@
 body {
   font-family: 'Jost', sans-serif;
 }
+button {
+  cursor: pointer;
+}
+a {
+  cursor: pointer;
+}
 .container {
   max-width: 1110px;
   margin: auto;
@@ -54,6 +60,10 @@ body {
   font-size: 12px;
   line-height: 17px;
   color: #5D6C7B;
+  transition: 0.2s all;
+}
+.navbar-nav-link:hover {
+  color: #6F73EE;
 }
 .navbar-social {
   display: flex;
@@ -69,6 +79,10 @@ body {
   line-height: 17px;
   color: #282739;
   text-decoration: none;
+  transition: 0.2s all;
+}
+.navbar-phone-link:hover {
+  color: #6F73EE;
 }
 .header-content {
   display: flex;
@@ -97,6 +111,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #FFFFFF;
+  transition: background 0.2s;
+}
+.header-button:hover {
+  background: #121572;
 }
 .line-svg {
   margin-right: 11px;
@@ -123,7 +141,6 @@ body {
   background: #6F73EE;
   border-radius: 0px 5px 5px 0px;
   border: 2px solid #6F73EE;
-  cursor: pointer;
 }
 .header-market {
   display: flex;
@@ -221,7 +238,10 @@ body {
   padding: 12px;
   background: rgba(255,255,255,0.2);
   border-radius: 5px;
-  cursor: pointer;
+  transition: border 0.2s;
+}
+.subheader-content-link:hover {
+  border: 0.5px solid #121572;
 }
 .subheader-content-text {
   font-family: 'Jost';
@@ -234,14 +254,18 @@ body {
 .subheader-button {
   padding: 15px 40px;
   background: #FFFFFF;
-  border: 1.3px solid #FFFFFF;
+  border: none;
   border-radius: 5px;
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
   text-align: center;
   color: #6F73EE;
-  cursor: pointer;
+  transition:  0.2s all;
+}
+.subheader-button:hover {
+  background: #121572;
+  color:#FFFFFF;
 }
 .sample {
   min-height: 422px;
@@ -458,6 +482,10 @@ body {
   line-height: 17px;
   text-align: center;
   color: #FFFFFF;
+  transition: background 0.2s ;
+}
+.trademarks-card-button:hover {
+  background: #121572
 }
 .bg-grey {
   margin-right: 30px;
@@ -516,7 +544,10 @@ body {
   background: #6F73EE;
   border-radius: 5px;
   border: none;
-  cursor: pointer;
+  transition: background 0.2s;
+}
+.input-group-button:hover {
+  background: #121572;
 }
 .cta-checkbox {
   display: flex;
@@ -589,6 +620,11 @@ body {
   border-radius: 5px;
   padding: 15px 25px;
   border: none;
+  transition: 0.2s all;
+}
+.finish-button:hover {
+  background: #121572;
+  color:#FFFFFF;
 }
 .bg-grey-footer {
   background: #F4F7FB;
@@ -626,6 +662,10 @@ body {
   line-height: 20px;
   color: #5D6C7B;
   text-decoration: none;
+  transition: 0.2s all;
+}
+.footer-menu-link:hover {
+  color: #6F73EE;
 }
 .footer-menu-column-2 {
   columns: 2 auto;
@@ -651,8 +691,12 @@ body {
   font-size: 16px;
   line-height: 23px;
   color: #282739;
+  text-decoration: none;
   margin: 0;
-  margin-bottom: 7px;
+  transition: 0.2s all;
+}
+.service-number:hover {
+  color: #6F73EE;
 }
 .service-schedule {
   font-family: 'Jost';
@@ -662,6 +706,7 @@ body {
   line-height: 17px;
   color: #5D6C7B;
   margin: 0;
+  margin-top: 7px;
 }
 .button-link {
   font-family: 'Jost';
@@ -719,6 +764,10 @@ body {
   line-height: 17px;
   color: #5D6C7B;
   text-decoration: none;
+  transition: 0.2s all;
+}
+.footer-props:hover {
+  color:#121572;
 }
 .footer-policy {
   font-family: 'Jost';
@@ -728,6 +777,10 @@ body {
   line-height: 17px;
   color: #5D6C7B;
   text-decoration: none;
+  transition: 0.2s all;
+}
+.footer-policy:hover {
+  color:#121572;
 }
 .footer-networks-bottom {
   display: flex;
@@ -813,6 +866,12 @@ body {
   }
 }
 @media ( max-width: 992px) {
+  button {
+    cursor: default;
+  }
+  a {
+    cursor: default;
+  }
   .container {
     max-width: 720px
   }
@@ -896,6 +955,45 @@ body {
   }
   .world-social {
     gap: 8px;
+  }
+  /* HOVER EFFECT NONE  */ 
+  .navbar-nav-link:hover {
+    color: #5D6C7B;
+  }
+  .navbar-phone-link:hover {
+    color: #282739;
+  }
+  .header-button:hover {
+    background: #6F73EE;
+  }
+  .subheader-content-link:hover {
+    border: none;
+  }
+  .subheader-button:hover {
+    color: #6F73EE;
+    background: #FFFFFF;
+  }
+  .trademarks-card-button:hover {
+    background: #6F73EE;
+  }
+  .input-group-button:hover {
+    background: #6F73EE;
+  }
+  .finish-button:hover {
+    color: #6F73EE;
+    background: #FFFFFF;
+  }
+  .footer-menu-link:hover {
+    color: #5D6C7B;
+  }
+  .service-number:hover {
+    color: #282739;
+  }
+  .footer-props:hover {
+    color: #5D6C7B;
+  }
+  .footer-policy:hover {
+    color: #5D6C7B;
   }
 }
 @media (max-width: 768px) {
