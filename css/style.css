@@ -190,7 +190,7 @@ body {
   color: #FFFFFF;
   margin: 0;
   margin-bottom: 6px;
-  width: 612px;
+  max-width: 612px;
 }
 .subheader-text {
   font-family: 'Jost';
@@ -644,7 +644,7 @@ body {
   margin: 0;
   margin-bottom: 5px;
 }
-.-service-number {
+.service-number {
   font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
@@ -899,11 +899,12 @@ body {
   }
 }
 @media (max-width: 768px) {
-  /* .container {
-    max-width: 640px;
-  } */
   .container {
     max-width: 540px;
+  }
+  .section {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .navbar-nav {
     display: none;
@@ -928,12 +929,189 @@ body {
   .mobile-menu-line:nth-child(2) {
     width: 80%;
   }
+  .header-content {
+    flex-direction: column;
+  }
+  .header-logo {
+    margin-bottom: 10px;
+  }
+  .header-button {
+    margin-bottom: 10px;
+  }
+  .header-search {
+    margin-bottom: 10px;
+  }
+  .header-market-text {
+    display: none;
+  }
+  .header-market-link:nth-child(3) {
+    margin-right: 0px;
+  }
+  .subheader {
+    margin-top: 0;
+  }
+  .sample-title {
+    text-align: center;
+  }
+  .sample-image {
+    position: unset;
+    width: 100%;
+    max-width: unset;
+    margin-top: 20px;
+  }
+  .subsample-content {
+    flex-direction: column;
+  }
+  .subsample-content-block {
+    max-width: unset;
+  }
+  .sub-sample-title {
+    text-align: center;
+  }
+  .subsample-image {
+    position: unset;
+    max-width: unset;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .cta-image {
+    display: none;
+  }
+  .input-group-button {
+    padding: 15px 28px;
+  }
+  .finish {
+    margin-bottom: 0;
+  }
+  .finish-title {
+    font-size: 15px;
+  }
+  .finish-form-wrapper {
+    flex-direction: column;
+  }
+  .input-email {
+    max-width: 200px;
+  }
+  .finish-button {
+    padding: 10px 55px;
+  }
+  .footer-service {
+    flex-direction: column;
+  }
+  .footer-logo {
+    margin-bottom: 0;
+  }
+  .footer-social {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .network-image {
+    width: 100px;
+    height: 40px;
+  }
+  .markets-play-image {
+    width: 100px;
+    height: 40px;
+  }
+  .footer-bottom {
+    gap: 10px;
+  }
+  .footer-legal {
+    gap: 10px;
+  }
+  .footer-props {
+    font-size: 11px;
+  }
+  .footer-policy {
+    font-size: 11px;
+  }
+  .master-cards {
+    display: none;
+  }
+  .world-text {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
   }
+  .subheader-title {
+    font-size: 30px;
+  }
+  .cta-form-text {
+    font-size: 12px;
+  }
+  .footer-menu-column-2 {
+    columns: auto;
+  }
+  .service-number {
+    font-size: 12px;
+  }
+  .footer-menu-title {
+    font-size: 14px;
+  }
+  .footer-menu-link {
+    font-size: 11px;
+  }
+  .footer-bottom {
+    padding-top: 10px;
+  }
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-networks-bottom {
+    gap: 5px;
+  }
 }
 @media (max-width: 425px) {
-
+  .section-title {
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .subheader-info {
+    gap: 7px;
+  }
+  .subheader-title {
+    font-size: 25px;
+  }
+  .subheader-text {
+    font-size: 15px;
+  }
+  .subheader-content {
+    gap: 15px;
+  }
+  .subheader-content-block {
+    gap: 10px;
+  }
+  .subheader-content-text {
+    font-size: 11px;
+  }
+  .subheader-button {
+    width: 100%;
+  }
+  .input-group {
+    width: 100%;
+    position: relative;
+  }
+  .input {
+    width: 100%;
+  }
+  .input-group-button {
+    width: 100%;
+  }
+  .cta-checkbox-text {
+    max-width: 250px;
+  }
+  .finish-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .finish-title {
+    margin-bottom: 0;
+  }
+  .finish-form-wrapper {
+    margin-bottom: 10px;
+  }
 }
