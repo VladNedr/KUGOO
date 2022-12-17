@@ -529,7 +529,7 @@
     <section class="section cta">
       <div class="bg-grey section-cta">
         <div class="cta-form-wrapper container">
-          <form action="handlers.php" method="POST" class="cta-form">
+          <form action="handlers.php" method="POST" class="cta-form handlers-form-phone">
             <h2 class="section-title cta-title">
               Нет нужной модели, которую хотите протестировать?
             </h2>
@@ -559,6 +559,7 @@
                 id="click"
                 class="input-checkbox"
                 required
+                name="checkbox-policy"
               />
               <label for="click" class="cta-checkbox-text">
                 Нажимая на кнопку, вы соглашаетесь на обработку персональных
@@ -578,7 +579,7 @@
 
     <section class="section finish">
       <div class="container">
-        <form action="handlers.php" method="POST" class="finish-form">
+        <form action="handlers.php" method="POST" class="finish-form handlers-form-email">
           <h3 class="finish-title">
             Оставьте свою почту и станьте первым, кто получит скидку на новые
             самокаты
@@ -793,7 +794,7 @@
           <p class="modal-text">
             Менеджер свяжется c вами в течение 5 минут, чтобы согласовать время.
           </p>
-          <form action="handlers.php" method="POST" class="modal-form">
+          <form action="handlers.php" method="POST" class="modal-form handlers-form-phone">
             <p class="modal-form-text">Как c вами удобнее связаться?</p>
             <div class="input-group-vertical">
               <div class="modal-input-group">
@@ -818,6 +819,7 @@
                 id="click"
                 class="input-checkbox"
                 required
+                name="checkbox-policy"
               />
               <label for="click" class="cta-checkbox-text modal-checkbox-text">
                 Нажимая на кнопку, вы соглашаетесь на обработку персональных
@@ -838,27 +840,23 @@
     </div>
 
     <div class="modal" id="alert-modal">
-      <div class="modal-dialog ">
-        <svg class="thanks" width="360px" height="310px">
-          <use href="img/sprite.svg#thanks"></use>
-        </svg>
-        <h2 class="modal-title">Спасибо за заявку!</h2>
+      <div class="modal-dialog modal-dialog-thanks">
+        <h2 class="modal-title modal-thanks-title">Спасибо за заявку!</h2>
         <a
           href="#"
           class="modal-close"
           data-toggle="modal"
           data-target="#alert-modal"
         >
-          <svg class="map-icon" width="24px" height="24px">
-            <use href="img/sprite.svg#close"></use>
+          <svg class="map-icon" width="20px" height="20px">
+            <use href="img/srite.svg#close"></use>
           </svg>
         </a>
-        <p class="modal-text">
+        <p class="modal-text thanks-modal-text ">
           Наш менеджер свяжется с Вами в ближайшее время ответит на все
           интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
         <button
-          type="submit"
           class="button modal-form-button modal-thanks-button"
         >
           Вернуться на главную
@@ -868,6 +866,7 @@
 
     
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

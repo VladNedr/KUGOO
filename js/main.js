@@ -81,3 +81,123 @@ document.addEventListener("keyup", (event) => {
   }
   // Закрытие модального окна с помощью кнопки Escape
 });
+
+const phoneForms = document.querySelectorAll(".handlers-form-phone"); // собираем формы/ берем форму с номером телефона
+phoneForms.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation
+    .addField("[name=userphone]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите телефон",
+      },
+      {
+        rule: "minLength",
+        value: 18,
+        errorMessage: "Неверно набран номер",
+      },
+    ])
+    .addField("[name=checkbox-policy]", [
+      {
+        rule: "required",
+        errorMessage: "Обязательное поле",
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target; // Наша форма
+      event.preventDefault();
+      const formData = new FormData(thisForm); // данные из нашей формы
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          if (response.ok) {
+            thisForm.reset();
+            if (currentModal) {
+              currentModal.classList.remove("is-open");
+            }
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+            // отслеживаем клик по окну и пустым областям
+            currentModal.addEventListener("click", (event) => {
+              // елси клик в пустую белую область (не диалог)
+              if (!event.composedPath().includes(modalDialog)) {
+                // закрываем окно
+                currentModal.classList.remove("is-open");
+              }
+            });
+          } else {
+            alert("Ошибка. Текста ошибки: ".response.statusText);
+          }
+        });
+      };
+      ajaxSend(formData);
+    });
+});
+
+const emailForms = document.querySelectorAll(".handlers-form-email"); // берем форму с email
+emailForms.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation
+    .addField("[name=useremail]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите email",
+      },
+      {
+        rule: "minLength",
+        value: 4,
+        errorMessage: "Минимально 4 символа",
+      },
+      {
+        rule: "maxLength",
+        value: 30,
+        errorMessage: "Максимально 30 символов",
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target; // Наша форма
+      event.preventDefault();
+      const formData = new FormData(thisForm); // данные из нашей формы
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          if (response.ok) {
+            thisForm.reset();
+            if (currentModal) {
+              currentModal.classList.remove("is-open");
+            }
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+            // отслеживаем клик по окну и пустым областям
+            currentModal.addEventListener("click", (event) => {
+              // елси клик в пустую белую область (не диалог)
+              if (!event.composedPath().includes(modalDialog)) {
+                // закрываем окно
+                currentModal.classList.remove("is-open");
+              }
+            });
+          } else {
+            alert("Ошибка. Текста ошибки: ".response.statusText);
+          }
+        });
+      };
+      ajaxSend(formData);
+    });
+});
+
+// При клике на кнопку в окне благодарности, возвращает на страницу!
+let modalThanksButton = document.querySelector(".modal-thanks-button");
+modalThanksButton.addEventListener("click", (event) => {
+ const thanksForm = document.querySelector("#alert-modal");
+ thanksForm.classList.remove("is-open");
+});

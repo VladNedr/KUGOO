@@ -851,6 +851,13 @@ a {
   display: flex;
   gap: 69px;
 }
+.modal-dialog-thanks {
+  max-width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .modal-close {
   position: absolute;
   top: 14px;
@@ -869,6 +876,10 @@ a {
   color: #282739;
   margin: 0;
   margin-bottom: 9px;
+}
+.thanks-modal-title {
+  margin: 0;
+  font-size: 29px;
 }
 .modal-subtitle {
   font-family: 'Jost';
@@ -889,6 +900,9 @@ a {
   color: #282739;
   margin: 0;
   margin-bottom: 86px;
+}
+.thanks-modal-text {
+  margin: 0;
 }
 .modal-form-text {
   margin-top: 0;
