@@ -529,7 +529,7 @@
     <section class="section cta">
       <div class="bg-grey section-cta">
         <div class="cta-form-wrapper container">
-          <form action="#" class="cta-form">
+          <form action="handlers.php" method="POST" class="cta-form">
             <h2 class="section-title cta-title">
               Нет нужной модели, которую хотите протестировать?
             </h2>
@@ -543,12 +543,12 @@
                   type="tel"
                   class="input phone-mask"
                   name="userphone"
-                  placeholder="+7 (___) __ - __ - __ "
+                  placeholder=" +7 (___) __ - __ - __  "
                   required
                 />
               </div>
               <div class="input-group">
-                <button class="input-group-button">
+                <button type="submit"  class="input-group-button">
                   Оставить заявку на тест-драйв
                 </button>
               </div>
@@ -578,7 +578,7 @@
 
     <section class="section finish">
       <div class="container">
-        <form action="#" class="finish-form">
+        <form action="handlers.php" method="POST" class="finish-form">
           <h3 class="finish-title">
             Оставьте свою почту и станьте первым, кто получит скидку на новые
             самокаты
@@ -588,6 +588,7 @@
               <input
                 type="email"
                 class="input-email"
+                name="useremail"
                 placeholder="Введите Ваш email"
                 required
               />
@@ -792,7 +793,7 @@
           <p class="modal-text">
             Менеджер свяжется c вами в течение 5 минут, чтобы согласовать время.
           </p>
-          <form action="#" method="POST" class="modal-form">
+          <form action="handlers.php" method="POST" class="modal-form">
             <p class="modal-form-text">Как c вами удобнее связаться?</p>
             <div class="input-group-vertical">
               <div class="modal-input-group">
@@ -800,7 +801,7 @@
                   id="modal-user-phone"
                   type="tel"
                   class="input modal-input phone-mask"
-                  placeholder="+7 (___) __ - __ - __"
+                  placeholder=" +7 (___) __ - __ - __ "
                   name="userphone"
                   required
                 />
@@ -835,6 +836,36 @@
         />
       </div>
     </div>
+
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog ">
+        <svg class="thanks" width="360px" height="310px">
+          <use href="img/sprite.svg#thanks"></use>
+        </svg>
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a
+          href="#"
+          class="modal-close"
+          data-toggle="modal"
+          data-target="#alert-modal"
+        >
+          <svg class="map-icon" width="24px" height="24px">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">
+          Наш менеджер свяжется с Вами в ближайшее время ответит на все
+          интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <button
+          type="submit"
+          class="button modal-form-button modal-thanks-button"
+        >
+          Вернуться на главную
+        </button>
+      </div>
+    </div>
+
     
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
