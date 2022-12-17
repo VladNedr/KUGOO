@@ -17,7 +17,6 @@
   </head>
   <body>
     <div class="mobile-menu">
-
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
           <a href="#" class="mobile-menu-link">Сервис</a>
@@ -29,16 +28,16 @@
           <a href="#" class="mobile-menu-link">Заказать звонок</a>
         </li>
       </ul>
-      <hr class="mobile-seporator">
+      <hr class="mobile-seporator" />
       <div class="mobile-social">
         <a href="#" class="mobile-social-link">
-          <img src="img/vk.svg" alt="vk" class="social-link-image">
+          <img src="img/vk.svg" alt="vk" class="social-link-image" />
         </a>
         <a href="#" class="mobile-social-link">
-          <img src="img/telegram.svg" alt="vk" class="social-link-image">
+          <img src="img/telegram.svg" alt="vk" class="social-link-image" />
         </a>
         <a href="#" class="mobile-social-link">
-          <img src="img/youtube.svg" alt="vk" class="social-link-image">
+          <img src="img/youtube.svg" alt="vk" class="social-link-image" />
         </a>
       </div>
       <a href="tel:+78005055461" class="mobile-phone">+7 (800) 505-54-61</a>
@@ -174,7 +173,7 @@
           </div>
         </div>
         <!-- // subheader-group  -->
-        <button class="subheader-button">Записаться</button>
+        <button class="subheader-button" data-toggle="modal" data-target="#feedback-modal">Записаться</button>
       </div>
     </section>
 
@@ -316,7 +315,7 @@
                     </a>
                   </div>
                 </div>
-                <button class="trademarks-card-button">
+                <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </button>
               </div>
@@ -383,7 +382,7 @@
                     </a>
                   </div>
                 </div>
-                <button class="trademarks-card-button">
+                <button class="trademarks-card-button"data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </button>
               </div>
@@ -450,7 +449,7 @@
                     </a>
                   </div>
                 </div>
-                <button class="trademarks-card-button">
+                <button class="trademarks-card-button"data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </button>
               </div>
@@ -517,7 +516,7 @@
                     </a>
                   </div>
                 </div>
-                <button class="trademarks-card-button">
+                <button class="trademarks-card-button"data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </button>
               </div>
@@ -774,6 +773,69 @@
       </div>
       <!--// bg grey footer  -->
     </footer>
+
+    <div class="modal" id="feedback-modal">
+      <div class="modal-dialog">
+        <a
+          href="#"
+          class="modal-close"
+          data-toggle="modal"
+          data-target="#feedback-modal"
+        >
+          <svg class="map-icon" width="20px" height="20px">
+            <use href="img/srite.svg#close"></use>
+          </svg>
+        </a>
+        <div class="modal-dialog-content">
+          <h3 class="modal-title">Запишитесь натест-драйв электросамоката</h3>
+          <p class="modal-subtitle">и подберите модель для себя</p>
+          <p class="modal-text">
+            Менеджер свяжется c вами в течение 5 минут, чтобы согласовать время.
+          </p>
+          <form action="#" method="POST" class="modal-form">
+            <p class="modal-form-text">Как c вами удобнее связаться?</p>
+            <div class="input-group-vertical">
+              <div class="modal-input-group">
+                <input
+                  id="modal-user-phone"
+                  type="tel"
+                  class="input modal-input phone-mask"
+                  placeholder="+7 (___) __ - __ - __"
+                  name="userphone"
+                  required
+                />
+              </div>
+              <div class="modal-input-group">
+                <button type="submit" class="modal-form-button">
+                  Оформить предзаказ
+                </button>
+              </div>
+            </div>
+            <div class="cta-checkbox modal-form-checkbox">
+              <input
+                type="checkbox"
+                id="click"
+                class="input-checkbox"
+                required
+              />
+              <label for="click" class="cta-checkbox-text modal-checkbox-text">
+                Нажимая на кнопку, вы соглашаетесь на обработку персональных
+                данных и
+                <span class="checkbox-text-modal">
+                  политикой конфиденциальности</span
+                >
+              </label>
+            </div>
+          </form>
+        </div>
+        <img
+          src="img/modal-dialog.jpg"
+          alt="Самокаты"
+          class="modal-dialog-image"
+        />
+      </div>
+    </div>
+    
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

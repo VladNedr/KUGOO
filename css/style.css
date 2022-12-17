@@ -815,6 +815,126 @@ a {
   align-items: center;
   gap: 14px;
 }
+.modal {
+  opacity: 0;
+  transform: translateX(-100%);
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+  transition: opacity 0.2s;
+}
+.modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal.is-open .modal-dialog {
+  transform: translateY(0);
+  opacity: 1;
+}
+.modal-dialog {
+  background: #FFFFFF;
+  border-radius: 5px;
+  max-width: 790px;
+  margin: auto;
+  padding: 40px 57px 37px 40px;
+  transform: translateY(-10%);
+  opacity: 0;
+  transition: opacity 0.3s , transform 0.3s; 
+  position: relative;
+  display: flex;
+  gap: 69px;
+}
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #282739;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.modal-subtitle {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #282739;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.modal-text {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #282739;
+  margin: 0;
+  margin-bottom: 86px;
+}
+.modal-form-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #5D6C7B;
+}
+.modal-form-button {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  border: none;
+  padding: 15px 57px;
+  background: #6F73EE;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.modal-form-checkbox {
+  gap: 12px;
+  max-width: 228px;
+}
+.modal-checkbox-text {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #282739;
+}
+.checkbox-text-modal {
+  color: #6F73EE;
+}
+.modal-dialog-image {
+  max-width:337px;
+  max-height: 497px;
+}
 @media ( max-width: 1300px) {
   .subsample-content-block {
     margin-right: 10px;
