@@ -99,7 +99,7 @@ phoneForms.forEach((form) => {
         errorMessage: "Неверно набран номер",
       },
     ])
-    .addField("[name=checkbox-policy]", [
+    .addField("#click", [
       {
         rule: "required",
         errorMessage: "Обязательное поле",
@@ -147,12 +147,16 @@ emailForms.forEach((form) => {
   validation
     .addField("[name=useremail]", [
       {
+        rule: "email",
+        errorMessage: "Электронная почта недействительна!",
+      },
+      {
         rule: "required",
         errorMessage: "Укажите email",
       },
       {
         rule: "minLength",
-        value: 4,
+        value: 10,
         errorMessage: "Минимально 4 символа",
       },
       {

@@ -606,7 +606,7 @@
       <div class="bg-grey-footer">
         <div class="container">
           <div class="footer-content-top">
-            <div class="footer-menu-wrapper">
+            <div class="footer-menu-wrapper footer-fixed">
               <div class="footer-menu-title">Каталог товаров</div>
               <ul class="footer-menu-list">
                 <li class="footer-menu-item">
@@ -623,7 +623,7 @@
                 </li>
               </ul>
             </div>
-            <div class="footer-menu-wrapper">
+            <div class="footer-menu-wrapper footer-fixed-2">
               <div class="footer-menu-title">Покупателям</div>
               <ul class="footer-menu-list footer-menu-column-2">
                 <li class="footer-menu-item">

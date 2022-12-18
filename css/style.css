@@ -475,6 +475,9 @@ a {
   border: 1.3px solid #EAEBED;
   border-radius: 100%;
 }
+.card-link-round:hover {
+  box-shadow: 0px 5px 10px 0px rgba(106, 4, 4)
+}
 .trademarks-card-button {
   padding: 10px 35px;
   background: #6F73EE;
@@ -557,6 +560,14 @@ a {
 .cta-checkbox {
   display: flex;
   gap: 15px;
+  position: relative;
+}
+.just-validate-error-label {
+  color: rgb(184, 17, 17);
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-size: 12px;
 }
 .cta-checkbox-text {
   font-family: 'Jost';
@@ -601,6 +612,9 @@ a {
   align-items: center;
   gap: 20px;
 }
+.finish-group {
+  position: relative;
+}
 .input-email {
   width: 410px;
   height: 53px;
@@ -641,6 +655,12 @@ a {
   justify-content: space-between;
   margin-bottom: 63px;
 }
+.footer-fixed {
+  margin-right: 50px;
+}
+.footer-fixed-2 {
+  margin-right: 18px;
+}
 .footer-menu-title {
   font-family: 'Jost';
   font-style: normal;
@@ -674,6 +694,7 @@ a {
 }
 .footer-menu-column-2 {
   columns: 2 auto;
+  column-gap: 43px;
 }
 .footer-service {
   display: flex;
@@ -1069,6 +1090,12 @@ a {
   .button-link {
     display: none;
   }
+  .footer-fixed {
+    margin-right: 0;
+  }
+  .footer-fixed-2 {
+    margin-right: 0;
+  }
   .footer-content-center {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -1130,6 +1157,9 @@ a {
   }
   .footer-policy:hover {
     color: #5D6C7B;
+  }
+  .card-link-round:hover {
+    box-shadow: unset;
   }
   /*  MODAL WINDOW  */
   .modal-dialog {
@@ -1318,6 +1348,9 @@ a {
   .footer-social {
     flex-direction: column;
     gap: 0px;
+  }
+  .footer-menu-column-2 {
+    column-gap: 10px;
   }
   .network-image {
     width: 100px;
