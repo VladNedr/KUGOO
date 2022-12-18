@@ -1131,6 +1131,23 @@ a {
   .footer-policy:hover {
     color: #5D6C7B;
   }
+  /*  MODAL WINDOW  */
+  .modal-dialog {
+    max-width : 400px;
+    padding: 40px;
+  }
+  .modal-dialog-image {
+    display: none;
+  }
+  .modal-title {
+    font-size: 30px;
+  }
+  .modal-subtitle {
+    margin-bottom: 20px;
+  }
+  .modal-text {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1372,6 +1389,13 @@ a {
   }
   .card-footer-link {
     gap: 5px;
+  }
+    /*  MODAL WINDOW  */
+  .modal-dialog {
+    max-width:  350px;
+  }
+  .modal-title {
+    font-size: 22px;
   }
 }
 @media (max-width: 425px) {
