@@ -665,7 +665,7 @@
                 </div>
               </div>
             </div>
-            <a href="#" class="button-link">Заказать звонок</a>
+            <a href="#" class="button-link"  data-toggle="modal" data-target="#feedback-modal" >Заказать звонок</a>
           </div>
           <!-- // footer top  -->
           <hr class="seporator-footer" />
