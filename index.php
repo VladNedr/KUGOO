@@ -3,15 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="shortcut icon" href="img/apple-favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" />
     <title>KUGOO</title>
   </head>
@@ -105,7 +99,7 @@
                 type="text"
                 placeholder="Искать самокат KUGO"
               />
-              <button class="header-search-button" type="submit">
+              <button class="header-search-button" type="reset">
                 <svg class="header-search-svg" width="16px" height="16px">
                   <use href="img/srite.svg#search"></use>
                 </svg>
@@ -181,7 +175,7 @@
       <div class="container">
         <div class="sample-wrap">
           <h2 class="section-title sample-title">
-            Определите максимально подходящую вам модель не теоретически, а на
+            Определите максимально подходящую вам модель  <br> не теоретически, а на
             практике
           </h2>
           <div class="sample-subtitle">Тест-драйв поможет:</div>
@@ -218,7 +212,7 @@
       <div class="subsample-content container">
         <div class="subsample-content-block">
           <h2 class="section-title sub-sample-title">
-            Научим правильной и безопасной езде в городе вас или вашего ребенка
+            Научим правильной <br> и безопасной езде в городе вас или вашего ребенка
           </h2>
           <div class="sample-subtitle">На обучении специалист расскажет::</div>
           <ul class="sample-list">
@@ -382,7 +376,7 @@
                     </a>
                   </div>
                 </div>
-                <button class="trademarks-card-button"data-toggle="modal" data-target="#feedback-modal">
+                <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </button>
               </div>
@@ -449,7 +443,7 @@
                     </a>
                   </div>
                 </div>
-                <button class="trademarks-card-button"data-toggle="modal" data-target="#feedback-modal">
+                <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </button>
               </div>
@@ -516,7 +510,7 @@
                     </a>
                   </div>
                 </div>
-                <button class="trademarks-card-button"data-toggle="modal" data-target="#feedback-modal">
+                <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </button>
               </div>
@@ -816,12 +810,12 @@
             <div class="cta-checkbox modal-form-checkbox">
               <input
                 type="checkbox"
-                id="click"
+                id="checkboxs"
                 class="input-checkbox"
                 required
                 name="checkbox-policy"
               />
-              <label for="click" class="cta-checkbox-text modal-checkbox-text">
+              <label for="checkboxs" class="cta-checkbox-text modal-checkbox-text">
                 Нажимая на кнопку, вы соглашаетесь на обработку персональных
                 данных и
                 <span class="checkbox-text-modal">

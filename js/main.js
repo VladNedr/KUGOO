@@ -99,7 +99,7 @@ phoneForms.forEach((form) => {
         errorMessage: "Неверно набран номер",
       },
     ])
-    .addField("#click", [
+    .addField("[name=checkbox-policy]", [
       {
         rule: "required",
         errorMessage: "Обязательное поле",
