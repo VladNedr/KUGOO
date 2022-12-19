@@ -297,16 +297,16 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <a href="#" class="card-link-round">
+                    <button href="#" class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
-                    </a>
-                    <a href="#" class="card-link-round">
+                    </button>
+                    <button href="#" class="card-link-round lovely-round">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
@@ -364,16 +364,16 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <a href="#" class="card-link-round">
+                    <button href="#" class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
-                    </a>
-                    <a href="#" class="card-link-round">
+                    </button>
+                    <button href="#" class="card-link-round lovely-round">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
@@ -431,16 +431,16 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <a href="#" class="card-link-round">
+                    <button href="#" class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
-                    </a>
-                    <a href="#" class="card-link-round">
+                    </button>
+                    <button href="#" class="card-link-round lovely-round">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
@@ -498,16 +498,16 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <a href="#" class="card-link-round">
+                    <button href="#" class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
-                    </a>
-                    <a href="#" class="card-link-round">
+                    </button>
+                    <button href="#" class="card-link-round lovely-round">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
-                    </a>
+                    </button>
                   </div>
                 </div>
                 <button class="trademarks-card-button" data-toggle="modal" data-target="#feedback-modal">
