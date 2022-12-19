@@ -545,6 +545,7 @@ a {
   gap: 20px;
   margin: 0;
   margin-bottom: 20px;
+  position: relative;
 }
 .input {
   height: 53px;
@@ -579,7 +580,10 @@ a {
 }
 .just-validate-error-label {
   color: rgb(184, 17, 17);
-  font-size: 12px;
+  font-size: 10px;
+  position: absolute;
+  bottom: -14px;
+  left: 0;
 }
 .cta-checkbox-text {
   font-family: 'Jost';
@@ -950,6 +954,9 @@ a {
   line-height: 17px;
   color: #5D6C7B;
 }
+.modal-input-group {
+  position: relative;
+}
 .modal-form-button {
   font-family: 'Jost';
   font-style: normal;
@@ -969,6 +976,7 @@ a {
 .modal-form-checkbox {
   gap: 12px;
   max-width: 228px;
+  position: relative;
 }
 .modal-checkbox-text {
   font-family: 'Jost';
