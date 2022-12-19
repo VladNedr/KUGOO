@@ -1,3 +1,6 @@
+@import url("normalize.css");
+@import url("swiper-bundle.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -95,7 +98,6 @@ a {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-top: 67px;
   padding-bottom: 12px;
 }
@@ -108,6 +110,8 @@ a {
   line-height: 43px;
   text-transform: uppercase;
   color: #282739;
+  text-decoration: none;
+  margin-right: 35px;
 }
 .header-button {
   padding: 12px 15px;
@@ -120,12 +124,16 @@ a {
   font-size: 16px;
   color: #FFFFFF;
   transition: background 0.2s;
+  margin-right: 20px;
 }
 .header-button:hover {
   background: #121572;
 }
 .line-svg {
   margin-right: 11px;
+}
+.header-search {
+  margin-right: 45px;
 }
 .header-search-form  {
   position: relative;
@@ -139,6 +147,7 @@ a {
   border-radius: 5px;
   outline: none;
   padding: 10px 20px;
+  font-size: 14px;
 }
 .header-search-button {
   position: absolute;
@@ -564,9 +573,6 @@ a {
 }
 .just-validate-error-label {
   color: rgb(184, 17, 17);
-  position: absolute;
-  top: 40px;
-  left: 10px;
   font-size: 12px;
 }
 .cta-checkbox-text {
@@ -763,6 +769,9 @@ a {
   display: flex;
   align-items: center;
   gap: 60px;
+}
+.footer-logo {
+  margin-right: 0;
 }
 .footer-markets-play {
   display: flex;
@@ -974,6 +983,18 @@ a {
   .subsample-content-block {
     margin-right: 10px;
   }
+  .header-content {
+    justify-content: space-between;
+  }
+  .header-logo {
+    margin: 0;
+  }
+  .header-button {
+    margin: 0;
+  }
+  .header-search {
+    margin: 0;
+  }
 }
 @media ( max-width: 1200px) {
   .container {
@@ -1044,7 +1065,7 @@ a {
   }
   .sample-image {
     right: 0;
-    top: 160px;
+    top: 180px;
   }
   .subsample-image {
     left: 0;

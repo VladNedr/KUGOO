@@ -85,7 +85,7 @@
     <header class="header">
       <div class="container">
         <div class="header-content">
-          <p class="header-logo">Kugoo</p>
+          <a href="./" class="header-logo">Kugoo</a>
           <button class="button header-button">
             <svg class="line-svg" width="13px" height="12px">
               <use href="img/srite.svg#line"></use>
@@ -109,12 +109,12 @@
           <div class="header-market">
             <a href="#" class="header-market-link">
               <svg class="header-market-icons" width="20px" height="20px">
-                <use href="img/srite.svg#love"></use>
+                <use href="img/srite.svg#balanc"></use>
               </svg>
             </a>
             <a href="#" class="header-market-link">
               <svg class="header-market-icons" width="20px" height="20px">
-                <use href="img/srite.svg#balanc"></use>
+                <use href="img/srite.svg#love"></use>
               </svg>
             </a>
             <a href="#" class="header-market-link">
@@ -672,7 +672,7 @@
           <div class="footer-content-center">
             <div class="footer-social">
               <div class="footer-social-markets">
-                <div class="footer-logo header-logo">Kugoo</div>
+                <a href="./" class="footer-logo header-logo">Kugoo</a>
                 <div class="footer-markets-play">
                   <a href="#" class="markets-play-link">
                     <img
