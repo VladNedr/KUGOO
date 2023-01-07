@@ -489,8 +489,9 @@ a {
 }
 .select {
   fill: #6F73EE;
+  pointer-events: none;
 }
-.select:active {
+.card-link-round.active .select {
   fill: #fd1111;
 }
 .trademarks-card-button {
@@ -1104,9 +1105,6 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
-  .finish-form-wrapper {
-    gap: 10px;
-  }
   .input-email {
     max-width: 250px;
   }
@@ -1361,6 +1359,8 @@ a {
   }
   .finish {
     margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .finish-title {
     font-size: 15px;
@@ -1418,8 +1418,17 @@ a {
   .container {
     max-width: 90%;
   }
+  .section-title {
+    line-height: 40px;
+  }
   .subheader-title {
-    font-size: 30px;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+  .subheader-text {
+    font-size: 18px;
+    margin-bottom: 25px;
   }
   .cta-form-text {
     font-size: 12px;
@@ -1468,11 +1477,13 @@ a {
 }
 @media (max-width: 425px) {
   .section-title {
-    line-height: 40px;
-    font-size: 22px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 40px;
   }
   .subheader-info {
     gap: 7px;
+    margin-bottom: 15px;
   }
   .subheader-title {
     font-size: 25px;
@@ -1512,9 +1523,6 @@ a {
   .finish-title {
     margin-bottom: 0;
   }
-  .finish-form-wrapper {
-    margin-bottom: 10px;
-  }
   .trademarks-card-content {
     padding: 15px 30px;
   }
@@ -1531,6 +1539,25 @@ a {
     gap: 15px;
   }
   .trademarks-card-button {
-    padding: 20px 35px;
+    padding: 15px 35px;
+  }
+  .sample-subtitle {
+    font-size: 16px;
+  }
+  .sample-item {
+    font-size: 14px;
+  }
+  .bg-grey {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .finish-title {
+    font-size: 14px;
+  }
+  .finish-form-wrapper {
+    gap: 15px;
+  }
+  .input-email {
+    height: 45px;
   }
 }

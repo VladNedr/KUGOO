@@ -6,14 +6,12 @@ const openMenu = (event) => {
   menu.classList.add("is-open"); // Вешает класс is-open
   mMenuToggle.classList.add("close-menu");
   document.body.style.overflow = "hidden"; // Запрещает прокрутку сайта под меню
-  lightModeOn();
 };
 const closeMenu = (event) => {
   // Функция закрывания меню
   menu.classList.remove("is-open"); // убирает класс is-open
   mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = ""; // возвращает прокрутку сайта под меню
-  lightModeOff();
 };
 
 mMenuToggle.addEventListener("click", (event) => {
@@ -274,5 +272,12 @@ document.addEventListener("input", (e) => {
     /* итог: номер в формате +7 (999) 123-45-67 */
     input.value = result;
   }
+});
+
+const selectElements = document.querySelectorAll(".card-link-round"); 
+selectElements.forEach(element => {
+  element.addEventListener("click", function(event) {
+    event.target.classList.toggle("active")
+  });
 });
 

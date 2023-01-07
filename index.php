@@ -56,12 +56,12 @@
             </li>
             <li class="navbar-nav-item navbar-social">
               <a href="#" class="navbar-nav-link">
-                <svg class="navbar-social-link" width="12px" height="12x">
+                <svg class="navbar-social-link" width="12px" height="12px">
                   <use href="img/srite.svg#viber"></use>
                 </svg>
               </a>
               <a href="#" class="navbar-nav-link">
-                <svg class="navbar-social-link" width="12px" height="12x">
+                <svg class="navbar-social-link" width="12px" height="12px">
                   <use href="img/srite.svg#whatsap"></use>
                 </svg>
               </a>
@@ -214,7 +214,7 @@
           <h2 class="section-title sub-sample-title">
             Научим правильной <br> и безопасной езде в городе вас или вашего ребенка
           </h2>
-          <div class="sample-subtitle">На обучении специалист расскажет::</div>
+          <div class="sample-subtitle">На обучении специалист расскажет:</div>
           <ul class="sample-list">
             <li class="sample-item">Как подготовить самокат к поездке;</li>
             <li class="sample-item">Как «завести» самокат;</li>
@@ -297,12 +297,12 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <button href="#" class="card-link-round">
+                    <button class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
                     </button>
-                    <button href="#" class="card-link-round lovely-round">
+                    <button class="card-link-round ">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
@@ -364,12 +364,12 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <button href="#" class="card-link-round">
+                    <button class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
                     </button>
-                    <button href="#" class="card-link-round lovely-round">
+                    <button class="card-link-round ">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
@@ -431,12 +431,12 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <button href="#" class="card-link-round">
+                    <button class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
                     </button>
-                    <button href="#" class="card-link-round lovely-round">
+                    <button class="card-link-round">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
@@ -498,12 +498,12 @@
                     <div class="catalog-prices">29 900 ₽</div>
                   </div>
                   <div class="card-footer-link">
-                    <button href="#" class="card-link-round">
+                    <button class="card-link-round">
                       <svg class="markets" width="20px" height="20px">
                         <use href="img/srite.svg#shopping"></use>
                       </svg>
                     </button>
-                    <button href="#" class="card-link-round lovely-round">
+                    <button class="card-link-round">
                       <svg class="select" width="20px" height="20px">
                         <use href="img/srite.svg#select"></use>
                       </svg>
